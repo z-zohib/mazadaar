@@ -1,0 +1,40 @@
+<!-- Zohib Zalmy **UNFINISHED** -->
+<!doctype html>
+<html>
+	<head>
+		<meta charset="URF-8" />
+		<title> Photo Viewer </title>
+		<script src="backend.js" type="application/javascript"> </script>
+	</head>
+	<body onload="main()" >
+		<h1>Viewer </h1>
+		<img id="images" src="initialImage.jpg" width="450" height="300" alt="imageViewer" />
+		<hr>
+		<form id="slideShowForm">
+			Photos' Folder: 
+			<input type="text" id="photoLocation" value="umcp/" />
+			<br /><br />
+
+			Common Name: 
+			<input type="text" id="photoName" value="college" />
+			<br /><br />
+
+			Start Photo Number: 
+			<input type="text" id="startNum" value="1" />
+
+			End Photo Number: 
+			<input type="text" id="endNum" value="1" />
+			<br /><br />
+
+			<input type="button" id="slideShow" value="Slide Show" />
+			<input type="button" id="randomSlide" value="Auto Random Slide Show" />
+			<input type="button" id="autoSlide" value="Auto Slide Show" />
+			<input type="button" id="stopAuto" value="Stop Auto Show" /> 
+			<input type="button" id="previousSlide" value="Previous Slide" />
+			<input type="button" id="nextSlide" value="Next Slide" />
+
+			<br /><br />
+			<input type="reset" name="Reset" />
+		</form>
+	</body>
+</html>
